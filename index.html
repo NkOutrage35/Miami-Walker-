@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <meta charset="UTF-8" />
@@ -42,7 +42,7 @@
     >
       <nav class="flex items-center justify-between py-8 relative">
         <!-- LOGO -->
-        <img src="./images/Xest Folio.png" alt="Logo" class="w-28 z-50" />
+        <img src="./images/Xest Folio.png" alt="Logo" class="w-16 z-50" />
 
         <!-- DESKTOP MENU -->
         <div
@@ -97,7 +97,7 @@
         >
           <a
             href="#"
-            class="menu-link text-2xl font-medium  uppercase tracking-wide hover:text-purple-400 transition"
+            class="menu-link text-2xl font-medium uppercase tracking-wide hover:text-purple-400 transition"
           >
             About
           </a>
@@ -135,23 +135,31 @@
 
       <!-- HERO -->
       <div
-        class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center pt-10 lg:pt-20 text-center lg:text-left"
+        class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center pt-10 lg:pt-20 text-center lg:text-left lg:py-16"
       >
-        <div class="order-2 lg:order-1 max-w-xl mx-auto lg:mx-0">
+        <div
+          class="order-2 relative lg:order-1 max-w-xl mx-auto lg:mx-0 -mt-24"
+        >
           <h1
-            class="font-black uppercase tracking-tighter leading-none text-5xl sm:text-6xl md:text-7xl lg:text-9xl"
+            class="font-bold uppercase tracking-tighter leading-none text-5xl sm:text-6xl md:text-7xl lg:text-[12rem] pb-32 lg: lg:pb-0 lg:mt-6"
           >
             <span
-              class="bg-linear-to-r from-purple-600 via-purple-500 to-pink-500 bg-clip-text text-transparent"
+              class="text-white mb-24 lg:mb-4 lg:bg-linear-to-r lg:from-purple-600 lg:via-purple-500 lg:to-pink-500 lg:bg-clip-text lg:text-transparent"
             >
               Miami
             </span>
             <br />
-            <span class="text-black">Walker</span>
+            <span class="text-black"
+              >Walke<span
+                class="text-black sm:bg-clip-text lg:text-white lg:relative lg:-top-48 lg:left-160"
+              >
+                r
+              </span>
+            </span>
           </h1>
 
           <p
-            class="mt-6 text-gray-500 text-base sm:text-lg md:text-xl leading-relaxed"
+            class="-mt-24 text-gray-500 text-base sm:text-lg md:text-xl leading-relaxed"
           >
             Award-winning product designer based in Georgia. We create
             user-friendly interfaces for fast-growing startups.
@@ -180,9 +188,60 @@
           </div>
         </div>
       </div>
+
+      <section class="w-full py-16 lg:py-20">
+        <div class="max-w-7xl mx-auto px-6">
+          <!-- LABEL -->
+          <p
+            class="text-center text-gray-400 font-medium mb-12 tracking-[0.2em] uppercase text-xs"
+          >
+            Trusted By
+          </p>
+
+          <!-- LOGOS -->
+          <div
+            class="flex flex-wrap items-center justify-center md:justify-between gap-y-4 gap-x-10 md:gap-x-8"
+          >
+            <!-- Logo 1 -->
+            <img
+              src="./images/3.png"
+              alt="Paperz"
+              class="h-6 md:h-9 w-auto object-contain"
+            />
+
+            <!-- Logo 2 -->
+            <img
+              src="./images/🖥-Landing-Pages.png"
+              alt="Dorfus"
+              class="h-6 md:h-9 w-auto object-contain"
+            />
+
+            <!-- Logo 3 -->
+            <img
+              src="./images/Logo.svg"
+              alt="Martino"
+              class="h-6 md:h-9 w-auto object-contain"
+            />
+
+            <!-- Logo 4 (hidden on small screens) -->
+            <img
+              src="./images/Page-1 (1).png"
+              alt="Square"
+              class="h-6 md:h-9 w-auto object-contain hidden sm:block"
+            />
+
+            <!-- Logo 5 (hidden on small screens) -->
+            <img
+              src="./images/Page-1.png"
+              alt="Gobona"
+              class="h-6 md:h-9 w-auto object-contain hidden sm:block"
+            />
+          </div>
+        </div>
+      </section>
     </section>
 
-    <section class="py-24 bg-white px-6 lg:px-16 max-w-7xl mx-auto">
+    <section class="bg-white px-6 lg:px-16 max-w-7xl mx-auto">
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
         <div class="lg:col-span-5">
           <span
@@ -190,7 +249,7 @@
             >Features</span
           >
           <h2
-            class="text-4xl md:text-5xl font-black mt-4 leading-tight text-gray-900"
+            class="text-4xl md:text-5xl font-bold mt-4 leading-tight text-[#131313]"
           >
             Giving Your Business<br />Some Great Ideas
           </h2>
@@ -437,7 +496,7 @@
 
     <!-- Article Section -->
     <section
-      class="py-20 -mt-28 md:mt-0 md:py-28 lg:py-36 bg-[#0a0a0a] px-6 lg:px-16 w-full"
+      class="py-20 -mt-28 md:mt-0 md:py-28 lg:py-36 bg-[#181818] px-6 lg:px-16 w-full"
     >
       <div class="max-w-7xl mx-auto">
         <div
@@ -482,7 +541,7 @@
             </div>
 
             <div
-              class="absolute top-40 left-12 md:left-24 w-[90%] md:w-[85%] bg-[#0a0a0a9f] p-8 z-10"
+              class="absolute top-40 left-12 md:left-24 w-[90%] md:w-[85%] bg-[#181818] p-8 z-10"
             >
               <p
                 class="text-gray-500 text-[10px] font-medium uppercase tracking-[0.2em] mb-3"
