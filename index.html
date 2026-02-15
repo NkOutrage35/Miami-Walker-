@@ -59,7 +59,7 @@
               class="absolute bottom-1 right-1 inset-0 bg-linear-to-r from-purple-600 to-pink-500 translate-x-1 translate-y-1"
             ></div>
             <button
-              class="relative bg-black text-white px-8 py-3 font-semibold transition-transform group-hover:-translate-x-1.5 group-hover:-translate-y-1.5"
+              class="relative bg-[#181818] text-white px-8 py-3 font-semibold transition-transform group-hover:-translate-x-1.5 group-hover:-translate-y-1.5"
             >
               Contact
             </button>
@@ -73,13 +73,13 @@
           aria-label="Toggle menu"
         >
           <span
-            class="menu-line w-8 h-0.5 bg-black transition-all duration-300"
+            class="menu-line w-8 h-0.5 bg-linear-to-r from-purple-600 to-pink-500 transition-all duration-300"
           ></span>
           <span
-            class="menu-line w-8 h-0.5 bg-black transition-all duration-300"
+            class="menu-line w-8 h-0.5 bg-linear-to-r from-purple-600 to-pink-500 transition-all duration-300"
           ></span>
           <span
-            class="menu-line w-8 h-0.5 bg-black transition-all duration-300"
+            class="menu-line w-8 h-0.5 bg-linear-to-r from-purple-600 to-pink-500 transition-all duration-300"
           ></span>
         </button>
       </nav>
@@ -89,7 +89,7 @@
         <!-- blur -->
         <div
           id="menuBackdrop"
-          class="absolute inset-0 bg-black/30 backdrop-blur-xl"
+          class="absolute inset-0 bg-[#181818]/30 backdrop-blur-xl"
         ></div>
 
         <div
@@ -170,7 +170,7 @@
               class="absolute bottom-1 right-1 inset-0 bg-linear-to-r from-purple-600 to-pink-500 translate-x-1 translate-y-1"
             ></div>
             <button
-              class="relative bg-black text-white px-8 py-3 font-semibold hover:-translate-x-2 hover:-translate-y-2 transition-transform"
+              class="relative bg-[#181818] text-white px-8 py-3 font-semibold hover:-translate-x-2 hover:-translate-y-2 transition-transform"
             >
               Book a Call
             </button>
@@ -193,49 +193,62 @@
         <div class="max-w-7xl mx-auto px-6">
           <!-- LABEL -->
           <p
-            class="text-center text-gray-400 font-medium mb-12 tracking-[0.2em] uppercase text-xs"
+            class="text-center text-gray-400 font-medium mb-12 tracking-[0.2em] uppercase text-base"
           >
             Trusted By
           </p>
 
           <!-- LOGOS -->
-          <div
-            class="flex flex-wrap items-center justify-center md:justify-between gap-y-4 gap-x-10 md:gap-x-8"
-          >
-            <!-- Logo 1 -->
-            <img
-              src="./images/3.png"
-              alt="Paperz"
-              class="h-6 md:h-9 w-auto object-contain"
-            />
+          <div class="w-full flex relative overflow-hidden group">
+            <div
+              class="flex flex-nowrap items-center justify-center md:justify-between gap-y-4 transition-transform duration-500 ease-in-out w-full"
+              id="logo-carousel"
+            >
+              <!-- Logo 1 -->
+              <div class="min-w-full flex justify-center">
+                <img
+                  src="./images/3.png"
+                  alt="Paperz"
+                  class="h-6 md:h-9 w-auto object-contain shrink-0"
+                />
+              </div>
 
-            <!-- Logo 2 -->
-            <img
-              src="./images/🖥-Landing-Pages.png"
-              alt="Dorfus"
-              class="h-6 md:h-9 w-auto object-contain"
-            />
+              <!-- Logo 2 -->
+              <div class="min-w-full flex justify-center">
+                <img
+                  src="./images/🖥-Landing-Pages.png"
+                  alt="Dorfus"
+                  class="h-6 md:h-9 w-auto object-contain shrink-0"
+                />
+              </div>
 
-            <!-- Logo 3 -->
-            <img
-              src="./images/Logo.svg"
-              alt="Martino"
-              class="h-6 md:h-9 w-auto object-contain"
-            />
+              <!-- Logo 3 -->
+              <div class="min-w-full flex justify-center">
+                <img
+                  src="./images/Logo.svg"
+                  alt="Martino"
+                  class="h-6 md:h-9 w-auto object-contain shrink-0"
+                />
+              </div>
 
-            <!-- Logo 4 (hidden on small screens) -->
-            <img
-              src="./images/Page-1 (1).png"
-              alt="Square"
-              class="h-6 md:h-9 w-auto object-contain hidden sm:block"
-            />
+              <!-- Logo 4 (hidden on small screens) -->
+              <div class="min-w-full flex justify-center">
+                <img
+                  src="./images/Page-1 (1).png"
+                  alt="Square"
+                  class="h-6 md:h-9 w-auto object-contain shrink-0"
+                />
+              </div>
 
-            <!-- Logo 5 (hidden on small screens) -->
-            <img
-              src="./images/Page-1.png"
-              alt="Gobona"
-              class="h-6 md:h-9 w-auto object-contain hidden sm:block"
-            />
+              <!-- Logo 5 (hidden on small screens) -->
+              <div class="min-w-full flex justify-center">
+                <img
+                  src="./images/Page-1.png"
+                  alt="Gobona"
+                  class="h-6 md:h-9 w-auto object-contain shrink-0"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -264,7 +277,7 @@
               class="absolute bottom-1 right-1 inset-0 bg-linear-to-r from-purple-600 to-pink-500 translate-x-1 translate-y-1"
             ></div>
             <button
-              class="relative bg-black text-white px-8 py-3 font-semibold hover:-translate-x-2 hover:-translate-y-2 transition-transform"
+              class="relative bg-[#181818] text-white px-8 py-3 font-semibold hover:-translate-x-2 hover:-translate-y-2 transition-transform"
             >
               Contact US
             </button>
@@ -297,7 +310,7 @@
               <img
                 src="./images/img.png"
                 alt="UI Design"
-                class="w-full h-full object-cover grayscale opacity-80 hover:grayscale-0 transition duration-500"
+                class="w-full h-full object-cover opacity-80 grayscale-100 transition duration-500"
               />
             </div>
             <h3 class="font-bold text-xl">UI Design</h3>
@@ -345,7 +358,7 @@
       >
         <div>
           <p
-            class="text-6xl md:text-7xl font-black text-transparent stroke-text"
+            class="text-6xl md:text-7xl font-semibold text-transparent stroke-text"
           >
             12K+
           </p>
@@ -354,7 +367,7 @@
 
         <div>
           <p
-            class="text-6xl md:text-7xl font-black text-transparent stroke-text"
+            class="text-6xl md:text-7xl font-semibold text-transparent stroke-text"
           >
             7K+
           </p>
@@ -363,7 +376,7 @@
 
         <div>
           <p
-            class="text-6xl md:text-7xl font-black text-transparent stroke-text"
+            class="text-6xl md:text-7xl font-semibold text-transparent stroke-text"
           >
             10+
           </p>
@@ -372,7 +385,7 @@
 
         <div>
           <p
-            class="text-6xl md:text-7xl font-black text-transparent stroke-text"
+            class="text-6xl md:text-7xl font-semibold text-transparent stroke-text"
           >
             270+
           </p>
@@ -391,7 +404,7 @@
             >Portfolio</span
           >
           <h2
-            class="text-4xl md:text-5xl font-black mt-4 text-gray-900 leading-tight"
+            class="text-4xl md:text-5xl font-semibold mt-4 text-gray-900 leading-tight"
           >
             Some Of Our Best Works
           </h2>
@@ -403,7 +416,7 @@
               class="absolute bottom-1 right-1 inset-0 bg-linear-to-r from-purple-600 to-pink-500 translate-x-1 translate-y-1"
             ></div>
             <button
-              class="relative bg-black text-white px-8 py-3 font-semibold hover:-translate-x-2 hover:-translate-y-2 transition-transform whitespace-nowrap"
+              class="relative bg-[#181818] text-white px-8 py-3 font-semibold hover:-translate-x-2 hover:-translate-y-2 transition-transform whitespace-nowrap"
             >
               Load More
             </button>
@@ -424,7 +437,7 @@
             >
               UI Design
             </p>
-            <h3 class="text-3xl font-black">Greenfy Website</h3>
+            <h3 class="text-3xl font-semibold">Greenfy Website</h3>
           </div>
         </div>
 
@@ -509,7 +522,7 @@
               LATEST BLOG
             </span>
             <h2
-              class="text-2xl md:text-5xl font-black mt-4 text-white leading-tight"
+              class="text-2xl md:text-5xl font-semibold mt-4 text-white leading-tight"
             >
               Check Some of Latest <br class="hidden md:block" />
               News & Articles
@@ -583,7 +596,7 @@
             </div>
 
             <div
-              class="absolute top-40 left-12 md:left-24 w-[90%] md:w-[85%] bg-[#0a0a0a9f] p-8 z-10"
+              class="absolute top-40 left-12 md:left-24 w-[90%] md:w-[85%] bg-[#181818] p-8 z-10"
             >
               <p
                 class="text-gray-500 text-[10px] font-medium uppercase tracking-[0.2em] mb-3"
@@ -625,7 +638,7 @@
             </div>
 
             <div
-              class="absolute bottom-[-180px] left-12 md:left-24 w-[90%] md:w-[85%] bg-[#0a0a0a9f] p-8 z-10"
+              class="absolute bottom-[-180px] left-12 md:left-24 w-[90%] md:w-[85%] bg-[#181818]p-8 z-10"
             >
               <p
                 class="text-gray-500 text-[10px] font-medium uppercase tracking-[0.2em] mb-3"
@@ -667,7 +680,7 @@
             </div>
 
             <div
-              class="absolute bottom-[-180px] left-12 md:left-24 w-[90%] md:w-[85%] bg-[#0a0a0a9f] p-8 z-10"
+              class="absolute bottom-[-180px] left-12 md:left-24 w-[90%] md:w-[85%] bg-[#181818] p-8 z-10"
             >
               <p
                 class="text-gray-500 text-[10px] font-medium uppercase tracking-[0.2em] mb-3"
@@ -709,7 +722,7 @@
             </div>
 
             <div
-              class="absolute bottom-[-180px] left-12 md:left-24 w-[90%] md:w-[85%] bg-[#0a0a0a9f] p-8 z-10"
+              class="absolute bottom-[-180px] left-12 md:left-24 w-[90%] md:w-[85%] bg-[#181818] p-8 z-10"
             >
               <p
                 class="text-gray-500 text-[10px] font-medium uppercase tracking-[0.2em] mb-3"
@@ -751,7 +764,7 @@
             </div>
 
             <div
-              class="absolute bottom-[-180px] left-12 md:left-24 w-[90%] md:w-[85%] bg-[#0a0a0a9f] p-8 z-10"
+              class="absolute bottom-[-180px] left-12 md:left-24 w-[90%] md:w-[85%] bg-[#181818] p-8 z-10"
             >
               <p
                 class="text-gray-500 text-[10px] font-medium uppercase tracking-[0.2em] mb-3"
@@ -794,105 +807,119 @@
             class="bg-linear-to-r from-purple-600 to-pink-500 bg-clip-text text-transparent font-bold tracking-widest uppercase text-xs"
             >Testimonials</span
           >
-          <h2 class="text-4xl md:text-5xl font-black mt-4 text-gray-900">
+          <h2 class="text-4xl md:text-5xl font-semibold mt-4 text-gray-900">
             What our customer say
           </h2>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="relative overflow-hidden">
           <div
-            class="bg-white py-2 px-4 w-full h-full shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between rounded-tr-[30px] rounded-bl-[30px]"
+            id="testimonial-carousel"
+            class="flex transition-transform duration-500 ease-in-out"
           >
-            <div>
-              <img
-                src="./images/mark.png"
-                alt="Quote"
-                class="w-10 h-10 mb-6 object-contain"
-              />
-              <p class="text-gray-500 italic text-lg leading-relaxed mb-4">
-                "Now, i can track my business activity with easier and have a
-                great understandable to operate the products"
-              </p>
-            </div>
+            <!-- Slide1 -->
+            <div class="min-w-full px-3">
+              <div
+                class="bg-white py-6 px-6 lg:w-lg lg:ml-88 h-full shadow-sm rounded-tr-[30px] rounded-bl-[30px] flex flex-col justify-between"
+              >
+                <div>
+                  <img
+                    src="./images/mark.png"
+                    alt="Quote"
+                    class="w-10 h-10 mb-6 object-contain"
+                  />
+                  <p class="text-gray-500 italic text-lg leading-relaxed mb-4">
+                    "Now, i can track my business activity with easier and have
+                    a great understandable to operate the products"
+                  </p>
+                </div>
 
-            <div class="flex items-center justify-between">
-              <div class="flex items-center space-x-4">
-                <img
-                  src="./images/Ellipse 1 (1).png"
-                  alt="Y Gunawan"
-                  class="w-12 h-12 rounded-full object-cover grayscale"
-                />
-                <span class="font-bold text-gray-800 text-lg">Y Gunawan</span>
-              </div>
-              <div class="flex items-center">
-                <img src="./images/star.svg" alt="" />
-                <span class="text-gray-800 font-bold text-lg">3.5</span>
-              </div>
-            </div>
-          </div>
-
-          <div
-            class="bg-white py-2 px-4 w-full h-full shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between rounded-tr-[30px] rounded-bl-[30px]"
-          >
-            <div>
-              <img
-                src="./images/mark.png"
-                alt="Quote"
-                class="w-10 h-10 mb-6 object-contain"
-              />
-              <p class="text-gray-500 italic text-lg leading-relaxed mb-4">
-                "Now, i can track my business activity with easier and have a
-                great understandable to operate the products"
-              </p>
-            </div>
-
-            <div class="flex items-center justify-between">
-              <div class="flex items-center space-x-4">
-                <img
-                  src="./images/Ellipse 1 (1).png"
-                  alt="Janne Cooper"
-                  class="w-12 h-12 rounded-full object-cover"
-                />
-                <span class="font-bold text-gray-800 text-lg"
-                  >Janne Cooper</span
-                >
-              </div>
-              <div class="flex items-center">
-                <img src="./images/star.svg" alt="" />
-                <span class="text-gray-800 font-bold text-lg">4.3</span>
+                <div class="flex items-center justify-between">
+                  <div class="flex items-center space-x-4">
+                    <img
+                      src="./images/Ellipse 1 (1).png"
+                      alt="Y Gunawan"
+                      class="w-12 h-12 rounded-full object-cover grayscale"
+                    />
+                    <span class="font-bold text-gray-800 text-lg"
+                      >Y Gunawan</span
+                    >
+                  </div>
+                  <div class="flex items-center">
+                    <img src="./images/star.svg" alt="" />
+                    <span class="text-gray-800 font-bold text-lg">3.5</span>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div
-            class="bg-white py-2 px-4 w-full h-full shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between rounded-tr-[30px] rounded-bl-[30px]"
-          >
-            <div>
-              <img
-                src="./images/mark.png"
-                alt="Quote"
-                class="w-10 h-10 mb-6 object-contain"
-              />
-              <p class="text-gray-500 italic text-lg leading-relaxed mb-4">
-                "Now, i can track my business activity with easier and have a
-                great understandable to operate the products"
-              </p>
+            <div class="min-w-full px-3">
+              <div
+                class="bg-white py-6 px-6 h-full lg:w-lg lg:ml-88 shadow-sm rounded-tr-[30px] rounded-bl-[30px] flex flex-col justify-between"
+              >
+                <div>
+                  <img
+                    src="./images/mark.png"
+                    alt="Quote"
+                    class="w-10 h-10 mb-6 object-contain"
+                  />
+                  <p class="text-gray-500 italic text-lg leading-relaxed mb-4">
+                    "Now, i can track my business activity with easier and have
+                    a great understandable to operate the products"
+                  </p>
+                </div>
+
+                <div class="flex items-center justify-between">
+                  <div class="flex items-center space-x-4">
+                    <img
+                      src="./images/Ellipse 1 (1).png"
+                      alt="Janne Cooper"
+                      class="w-12 h-12 rounded-full object-cover"
+                    />
+                    <span class="font-bold text-gray-800 text-lg"
+                      >Janne Cooper</span
+                    >
+                  </div>
+                  <div class="flex items-center">
+                    <img src="./images/star.svg" alt="" />
+                    <span class="text-gray-800 font-bold text-lg">4.3</span>
+                  </div>
+                </div>
+              </div>
             </div>
 
-            <div class="flex items-center justify-between">
-              <div class="flex items-center space-x-4">
-                <img
-                  src="./images/Ellipse 1.png"
-                  alt="Cobocannaeru"
-                  class="w-12 h-12 rounded-full object-cover"
-                />
-                <span class="font-bold text-gray-800 text-lg"
-                  >Cobocannaeru</span
-                >
-              </div>
-              <div class="flex items-center">
-                <img src="./images/star.svg" alt="" />
-                <span class="text-gray-800 font-bold text-lg">4.8</span>
+            <div class="min-w-full px-3">
+              <div
+                class="bg-white py-6 px-6 h-full lg:w-lg lg:ml-88 shadow-sm rounded-tr-[30px] rounded-bl-[30px] flex flex-col justify-between"
+              >
+                <div>
+                  <img
+                    src="./images/mark.png"
+                    alt="Quote"
+                    class="w-10 h-10 mb-6 object-contain"
+                  />
+                  <p class="text-gray-500 italic text-lg leading-relaxed mb-4">
+                    "Now, i can track my business activity with easier and have
+                    a great understandable to operate the products"
+                  </p>
+                </div>
+
+                <div class="flex items-center justify-between">
+                  <div class="flex items-center space-x-4">
+                    <img
+                      src="./images/Ellipse 1.png"
+                      alt="Cobocannaeru"
+                      class="w-12 h-12 rounded-full object-cover"
+                    />
+                    <span class="font-bold text-gray-800 text-lg"
+                      >Cobocannaeru</span
+                    >
+                  </div>
+                  <div class="flex items-center">
+                    <img src="./images/star.svg" alt="" />
+                    <span class="text-gray-800 font-bold text-lg">4.8</span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -997,7 +1024,7 @@
             >FAQS</span
           >
           <h2
-            class="text-4xl md:text-5xl font-black mt-4 text-white leading-tight"
+            class="text-4xl md:text-5xl font-semibold mt-4 text-white leading-tight"
           >
             Be Kind to Your Mind <br />
             Question & Answer
@@ -1018,7 +1045,7 @@
           >
             HAVE YOU PROJECT IN MIND?
           </p>
-          <h2 class="text-5xl md:text-6xl font-black text-gray-900 mb-12">
+          <h2 class="text-5xl md:text-6xl font-semibold text-gray-900 mb-12">
             Let's Make Something <br />
             Great Together!
           </h2>
@@ -1112,6 +1139,62 @@
 
       links.forEach((link) => {
         link.addEventListener("click", toggleMenu);
+      });
+
+      document.addEventListener("DOMContentLoaded", () => {
+        // Logo carousel
+        const logoCarousel = document.getElementById("logo-carousel");
+        let logoIndex = 0;
+        const autoSlideInterval = 2000;
+        const totalLogos = logoCarousel.children.length;
+
+        function updateLogoCarousel() {
+          logoCarousel.style.transform = `translateX(-${logoIndex * 100}%)`;
+        }
+
+        function slideLogos() {
+          logoIndex = (logoIndex + 1) % totalLogos;
+          updateLogoCarousel();
+        }
+
+        let logoTimer = setInterval(slideLogos, autoSlideInterval);
+        const logoContainer = logoCarousel.parentElement;
+
+        logoContainer.addEventListener("mouseenter", () =>
+          clearInterval(logoTimer),
+        );
+
+        logoContainer.addEventListener("mouseleave", () => {
+          logoTimer = setInterval(slideLogos, autoSlideInterval);
+        });
+
+        // Tesitomial Carousel
+        const testimonialCarousel = document.getElementById(
+          "testimonial-carousel",
+        );
+        let testimonialIndex = 0;
+        const slideInterval = 3000;
+        const totalTestimonials = testimonialCarousel.children.length;
+
+        function updateTestimonialCarousel() {
+          testimonialCarousel.style.transform = `translateX(-${testimonialIndex * 100}%)`;
+        }
+
+        function slideTestimonials() {
+          testimonialIndex = (testimonialIndex + 1) % totalTestimonials;
+          updateTestimonialCarousel();
+        }
+
+        let testimonialTimer = setInterval(slideTestimonials, slideInterval);
+        const testimonialContainer = testimonialCarousel.parentElement;
+
+        testimonialContainer.addEventListener("mouseenter", () =>
+          clearInterval(testimonialTimer),
+        );
+
+        testimonialContainer.addEventListener("mouseleave", () => {
+          testimonialTimer = setInterval(slideTestimonials, slideInterval);
+        });
       });
     </script>
   </body>
